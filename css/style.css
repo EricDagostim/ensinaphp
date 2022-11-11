@@ -1,0 +1,48 @@
+/* global */
+  .required label:after {
+    content:" *";
+    color: red;
+  }
+/* global */
+/* header */
+  .logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  header {
+    background-color: #000;
+    color: white;
+    text-align: center;
+  }
+/* header */
+
+/* index */
+  .form-login {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 15px;
+  }
+/* index */
+/* users/index*/
+  .td-actions {
+    width: 200px;
+  }
+  .td-actions a{
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+    color: white;
+  }
+  .td-actions a:hover{
+    color: white;
+  }
+/* users/index*/
+/* footer */
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+/* footer */

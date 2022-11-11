@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteRule ^users/edit.php/([a-zA-Z0-9\-=&_@\.\,\)\(]*)$ users/edit.php?id=$1
+RewriteRule ^users/view.php/([a-zA-Z0-9\-=&_@\.\,\)\(]*)$ users/view.php?id=$1
+RewriteRule ^users/disable.php/([a-zA-Z0-9\-=&_@\.\,\)\(]*)$ users/disable.php?id=$1
